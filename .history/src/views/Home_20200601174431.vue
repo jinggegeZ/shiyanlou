@@ -3,7 +3,7 @@
     <onepart></onepart>
     <twopart></twopart>
     <threepart></threepart>
-    <fourpart></fourpart>
+    
  </div>
 </template>
 
@@ -11,7 +11,6 @@
 import onepart from '../components/home/onepart'
 import twopart from '../components/home/twopart'
 import threepart from '../components/home/threepart'
-import fourpart from '../components/home/fourpart'
  export default {
    data () {
      return {
@@ -22,7 +21,6 @@ import fourpart from '../components/home/fourpart'
      onepart,
      twopart,
      threepart,
-     fourpart,
    },
    methods: {
 

@@ -103,7 +103,7 @@
     }
     .foot {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .f-box {
         width: 22%;
@@ -118,9 +118,8 @@
         box-shadow: 0 1px 30px 0 #d2d2d2;
     }
     .f-font {
-        line-height: 45px;
+        height: 30px;
         font-size: 18px;
         font-weight: 700;
-        text-align: center;
     }
 </style>

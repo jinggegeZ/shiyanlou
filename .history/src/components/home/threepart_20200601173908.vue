@@ -14,17 +14,17 @@
                 <div class="foot">
                     <a class="f-box" href="">
                         <div><img src="https://dn-simplecloud.shiyanlou.com/course/1552548603751_1545727521555_imglouplusML.png" alt="" height="100px"></div>
-                        <div class="f-font">6周成为机器学习初级工程师</div>
+                        <div>6周成为机器学习初级工程师</div>
                         <div>最近班次：6月2日</div>
                     </a>
                     <a class="f-box" href="">
                         <div><img src="https://dn-simplecloud.shiyanlou.com/course/1571375889048_企业微信截图_9bd1350f-ec15-415b-b53e-e62c29ec647f.png" height="100px" alt=""></div>
-                        <div class="f-font">4周掌握Python基础</div>
+                        <div>4周掌握Python基础</div>
                         <div>最近班次：随到随学</div>
                     </a>
                     <a class="f-box" href="">
                         <div><img src="https://dn-simplecloud.shiyanlou.com/course/1565168718677_楼——首页.png" alt="" height="100px"></div>
-                        <div class="f-font">6周成为深度学习工程师</div>
+                        <div>6周成为深度学习工程师</div>
                         <div>最近班次：7月6日</div>
                     </a>
                     <a class="f-box" href="">
@@ -103,7 +103,7 @@
     }
     .foot {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .f-box {
         width: 22%;
@@ -118,9 +118,8 @@
         box-shadow: 0 1px 30px 0 #d2d2d2;
     }
     .f-font {
-        line-height: 45px;
-        font-size: 18px;
+        height: 30px;
+        font-size: 16px;
         font-weight: 700;
-        text-align: center;
     }
 </style>

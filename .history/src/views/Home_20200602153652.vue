@@ -10,7 +10,6 @@
     <eightpart></eightpart>
     <ninepart></ninepart>
     <tenpart></tenpart>
-    <elevenpart></elevenpart>
  </div>
 </template>
 
@@ -25,7 +24,6 @@ import sevenpart from '../components/home/sevenpart'
 import eightpart from '../components/home/eightpart'
 import ninepart from '../components/home/ninepart'
 import tenpart from '../components/home/tenpart'
-import elevenpart from '../components/home/elevenpart'
  export default {
    data () {
      return {
@@ -43,7 +41,6 @@ import elevenpart from '../components/home/elevenpart'
      eightpart,
      ninepart,
      tenpart,
-     elevenpart,
    },
    methods: {
 

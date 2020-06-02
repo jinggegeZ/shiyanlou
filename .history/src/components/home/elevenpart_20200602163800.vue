@@ -1,0 +1,60 @@
+<template>
+ <div>
+    <div class="box">
+      <div class="nav">
+        <div class="body">
+          <div class="item">
+            <div><img src="" alt=""></div>
+            <div></div>
+          </div>
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+      </div>
+    </div>
+ </div>
+</template>
+
+<script>
+ export default {
+   data () {
+     return {
+
+     }
+   },
+   components: {
+
+   },
+   methods: {
+
+   },
+   mounted() {
+
+   },
+   watch: {
+
+   },
+   computed: {
+
+   }
+ }
+</script>
+
+<style scoped >
+    .box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+        background: rgb(249,249,249);
+    }
+    .nav{
+        width: 1200px;
+    }
+    .body {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+</style>

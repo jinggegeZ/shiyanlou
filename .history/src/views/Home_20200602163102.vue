@@ -10,7 +10,6 @@
     <eightpart></eightpart>
     <ninepart></ninepart>
     <tenpart></tenpart>
-    <elevenpart></elevenpart>
  </div>
 </template>
 
@@ -43,7 +42,6 @@ import elevenpart from '../components/home/elevenpart'
      eightpart,
      ninepart,
      tenpart,
-     elevenpart,
    },
    methods: {
 

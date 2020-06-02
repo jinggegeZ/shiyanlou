@@ -28,11 +28,12 @@ import ninepart from '../components/home/ninepart'
 import tenpart from '../components/home/tenpart'
 import elevenpart from '../components/home/elevenpart'
 import endpart from '../components/home/endpart'
-
+import { Swiper, SwiperSlide,} from 'vue-awesome-swiper'
+import 'swiper/css/swiper.css'
  export default {
    data () {
      return {
-       
+
      }
    },
    components: {
@@ -48,19 +49,18 @@ import endpart from '../components/home/endpart'
      tenpart,
      elevenpart,
      endpart,
-     
    },
    methods: {
-     
+
    },
    mounted() {
-     
+
    },
    watch: {
 
    },
    computed: {
-     
+
    }
  }
 </script>

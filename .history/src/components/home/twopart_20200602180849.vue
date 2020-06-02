@@ -1,17 +1,46 @@
 <template>
  <div>
     <div class="box">
-        <div class="box_aaa">
         <div class="mildle">
             <div class="left">
-                <div class="l-item" v-for="(item,index) in arr" :key="index">
+                <div class="l-item">
                     <div class="item">
-                        <a class="item-a" href="">{{item.name}}</a>
-                        <a class="item-a" href="">{{item.tags[0].name}}</a>
-                        <a class="item-a" href="">{{item.tags[1].name}}</a>
+                        <a class="item-a" href="">后端开发</a>
+                        <a class="item-a" href="">Python</a>
+                        <a class="item-a" href="">PHP</a>
                     </div>
-                    <div class="item-b" v-for="(item1,index1) in item.tags" :key="index1">
+                    <div class="item-b">
                             <div class="itemb-1">后端开发</div>
+                            <div class="itemb-2">
+                                <a class="itemb-3">Python</a>
+                                <a class="itemb-3">Python</a>
+                            </div>
+                            <div class="itemb-1">课程推荐</div>
+                        </div>
+                </div>
+                <div class="l-item">
+                    <div class="item">
+                        <a class="item-a" href="">Linux运维</a>
+                        <a class="item-a" href="">Linux</a>
+                        <a class="item-a" href="">Shell</a>
+                    </div>
+                    <div class="item-b">
+                            <div class="itemb-1">Linux运维</div>
+                            <div class="itemb-2">
+                                <a class="itemb-3">Python</a>
+                                <a class="itemb-3">Python</a>
+                            </div>
+                            <div class="itemb-1">课程推荐</div>
+                        </div>
+                </div>
+                <div class="l-item">
+                    <div class="item">
+                        <a class="item-a" href="">云计算与大数据</a>
+                        <a class="item-a" href="">Hadoop</a>
+                        <a class="item-a" href="">Spark</a>
+                    </div>
+                    <div class="item-b">
+                            <div class="itemb-1">云计算与大数据</div>
                             <div class="itemb-2">
                                 <a class="itemb-3">Python</a>
                                 <a class="itemb-3">Python</a>
@@ -21,13 +50,10 @@
                 </div>
             </div>
         </div>
-        </div>
-        <div class="b-foot">
+        <div>
             <swiper ref="mySwiper" :options="swiperOptions">
                 <swiper-slide v-for="(item,index) in pics" :key="index">
-                <div class="beibei" :style="{background:item.background_color}">
                 <img :src="item.picture_url" alt="">
-                </div>
                 </swiper-slide>
                 <div class="swiper-pagination" slot="pagination"></div>
             </swiper>
@@ -37,19 +63,14 @@
 </template>
 
 <script>
-import { Swiper, SwiperSlide,} from 'vue-awesome-swiper'
-import 'swiper/css/swiper.css'
-import axios from 'axios'
  export default {
    data () {
      return {
-         arr:[],
          pics:[],
          swiperOptions: {
           pagination: {
             el: '.swiper-pagination'
           },
-          autoplay:true,
           
         }
      }
@@ -66,19 +87,10 @@ import axios from 'axios'
        }).catch(err => {
          console.log(err);
        })
-     },
-     getData1(){
-       axios.get('http://120.78.14.107/api/v2/index/categories').then(res => {
-         this.arr = res.data
-         console.log(res.data);
-       }).catch(err => {
-         console.log(err);
-       })
      }
    },
    mounted() {
-       this.getData(),
-       this.getData1()
+       this.getData()
    },
    watch: {
 
@@ -94,38 +106,24 @@ import axios from 'axios'
         width: 100%;
         display: flex;
         justify-content: center;
+        background: rgb(255,204,51);
         
-        position: relative;
         height: 515px;
-    }
-    .box_aaa{
-        width: 100%;
-        z-index: 99;
-        height: 100%;
-        position: absolute;
-        left: 0;
-        top: 0;
-        display: flex;
-        justify-content: center;
     }
     .mildle {
         width: 1200px;
         
-    }
-    .b-foot {
-        width: 100%;
-
+        height: 100%;
+        
     }
     .left {
         width: 260px;
         background: rgba(0,0,0,.18);
-        height: 102%;
     }
     .l-item {
         display:flex;
         justify-content: center;
         position: relative;
-        
     }
     .l-item:hover{
          background: white;
@@ -140,7 +138,7 @@ import axios from 'axios'
     .item {
         display: flex;
         width: 240px;
-        height: 58px;
+        height: 50px;
         align-items: center;
         justify-content: space-around;
         border-bottom: 1px solid white;
@@ -187,10 +185,5 @@ import axios from 'axios'
     }
     .itemb-3:hover{
       color:#08bf91;
-    }
-    .beibei{
-        text-align: center;
-        width: 100%;
-        height: 100%;
     }
 </style>

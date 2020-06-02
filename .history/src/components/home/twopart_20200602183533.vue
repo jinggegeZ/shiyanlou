@@ -4,13 +4,13 @@
         <div class="box_aaa">
         <div class="mildle">
             <div class="left">
-                <div class="l-item" v-for="(item,index) in arr" :key="index">
+                <div class="l-item">
                     <div class="item">
-                        <a class="item-a" href="">{{item.name}}</a>
-                        <a class="item-a" href="">{{item.tags[0].name}}</a>
-                        <a class="item-a" href="">{{item.tags[1].name}}</a>
+                        <a class="item-a" href="">后端开发</a>
+                        <a class="item-a" href="">Python</a>
+                        <a class="item-a" href="">PHP</a>
                     </div>
-                    <div class="item-b" v-for="(item1,index1) in item.tags" :key="index1">
+                    <div class="item-b">
                             <div class="itemb-1">后端开发</div>
                             <div class="itemb-2">
                                 <a class="itemb-3">Python</a>
@@ -43,7 +43,6 @@ import axios from 'axios'
  export default {
    data () {
      return {
-         arr:[],
          pics:[],
          swiperOptions: {
           pagination: {
@@ -66,19 +65,10 @@ import axios from 'axios'
        }).catch(err => {
          console.log(err);
        })
-     },
-     getData1(){
-       axios.get('http://120.78.14.107/api/v2/index/categories').then(res => {
-         this.arr = res.data
-         console.log(res.data);
-       }).catch(err => {
-         console.log(err);
-       })
      }
    },
    mounted() {
-       this.getData(),
-       this.getData1()
+       this.getData()
    },
    watch: {
 
@@ -119,13 +109,12 @@ import axios from 'axios'
     .left {
         width: 260px;
         background: rgba(0,0,0,.18);
-        height: 102%;
+        
     }
     .l-item {
         display:flex;
         justify-content: center;
         position: relative;
-        
     }
     .l-item:hover{
          background: white;
@@ -140,7 +129,7 @@ import axios from 'axios'
     .item {
         display: flex;
         width: 240px;
-        height: 58px;
+        height: 50px;
         align-items: center;
         justify-content: space-around;
         border-bottom: 1px solid white;

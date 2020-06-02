@@ -10,7 +10,7 @@
                         <a class="item-a" href="">{{item.tags[0].name}}</a>
                         <a class="item-a" href="">{{item.tags[1].name}}</a>
                     </div>
-                    <div class="item-b" v-for="(item1,index1) in item.tags" :key="index1">
+                    <div class="item-b">
                             <div class="itemb-1">后端开发</div>
                             <div class="itemb-2">
                                 <a class="itemb-3">Python</a>
@@ -119,13 +119,13 @@ import axios from 'axios'
     .left {
         width: 260px;
         background: rgba(0,0,0,.18);
-        height: 102%;
+        
     }
     .l-item {
         display:flex;
         justify-content: center;
         position: relative;
-        
+        height: 100%;
     }
     .l-item:hover{
          background: white;

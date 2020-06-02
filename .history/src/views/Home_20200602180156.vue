@@ -28,7 +28,9 @@ import ninepart from '../components/home/ninepart'
 import tenpart from '../components/home/tenpart'
 import elevenpart from '../components/home/elevenpart'
 import endpart from '../components/home/endpart'
-
+import { Swiper, SwiperSlide,} from 'vue-awesome-swiper'
+import 'swiper/css/swiper.css'
+import axios from 'axios'
  export default {
    data () {
      return {
@@ -48,13 +50,14 @@ import endpart from '../components/home/endpart'
      tenpart,
      elevenpart,
      endpart,
-     
+     Swiper,
+    SwiperSlide,
    },
    methods: {
      
    },
    mounted() {
-     
+     this.getData()
    },
    watch: {
 

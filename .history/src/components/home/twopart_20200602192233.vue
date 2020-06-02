@@ -16,7 +16,7 @@
                                 <a class="itemb-3"></a>
                                 <a class="itemb-3"></a>
                             </div>
-                            <div class="itemb-1"></div>
+                            <div class="itemb-1">课程推荐</div>
                         </div>
                 </div>
             </div>

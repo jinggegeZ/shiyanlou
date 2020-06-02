@@ -10,13 +10,13 @@
                         <a class="item-a" href="">{{item.tags[0].name}}</a>
                         <a class="item-a" href="">{{item.tags[1].name}}</a>
                     </div>
-                    <div class="item-b" >
-                            <div class="itemb-1"></div>
+                    <div class="item-b" v-for="(item1,index1) in item.tags" :key="index1">
+                            <div class="itemb-1">{{item1.}}}</div>
                             <div class="itemb-2">
-                                <a class="itemb-3"></a>
-                                <a class="itemb-3"></a>
+                                <a class="itemb-3">Python</a>
+                                <a class="itemb-3">Python</a>
                             </div>
-                            <div class="itemb-1"></div>
+                            <div class="itemb-1">课程推荐</div>
                         </div>
                 </div>
             </div>

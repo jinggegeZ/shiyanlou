@@ -8,7 +8,7 @@
                         <div><a class="t-font2" href="">精选会员项目课程，动手中收获</a></div>
                     </div>
                     <div class="t-right">
-                        <a href="" class="ta">更多>></a>
+                        <a href="">更多>></a>
                     </div>
                 </div>
                 <div class="foot">
@@ -178,9 +178,6 @@
         text-decoration: none;
         color: black;
     }
-    .ta {
-        margin-right: 10px;
-    }
   .box {
         width: 100%;
         display: flex;
@@ -260,7 +257,7 @@
         align-items: center;
     }
     .fa-g {
-        border-radius: 15px;
+        border-radius: 5px;
         background: #f66;
         color: white;
         padding: 3px 10px;

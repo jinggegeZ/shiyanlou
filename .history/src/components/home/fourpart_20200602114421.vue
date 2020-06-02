@@ -8,7 +8,7 @@
                         <div><a class="t-font2" href="">精选会员项目课程，动手中收获</a></div>
                     </div>
                     <div class="t-right">
-                        <a href="" class="ta">更多>></a>
+                        <a href="">更多>></a>
                     </div>
                 </div>
                 <div class="foot">
@@ -30,7 +30,7 @@
                             </div>
                         </div>
                         <div class="fa_e"></div>
-                        <div class="fa-f">
+                        <div class="fa_d">
                             <div><img src="../pic/5.png" alt=""></div>
                             <div>135</div>
                         </div>
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                         <div class="fa_e"></div>
-                        <div class="fa-f">
+                        <div class="fa_d">
                             <div><img src="../pic/5.png" alt=""></div>
                             <div>135</div>
                         </div>
@@ -70,11 +70,8 @@
                         </div>
                         <div class="fa_e"></div>
                         <div class="fa_d">
-                            <div class="fa-f">
-                                <div><img src="../pic/5.png" alt=""></div>
-                                <div>135</div>
-                            </div>
-                            <div class="fa-g">训练营</div>
+                            <div><img src="../pic/5.png" alt=""></div>
+                            <div>135</div>
                         </div>
                         </a>
                         <a class="fa" href="">
@@ -91,11 +88,8 @@
                         </div>
                         <div class="fa_e"></div>
                         <div class="fa_d">
-                            <div class="fa-f">
-                                <div><img src="../pic/5.png" alt=""></div>
-                                <div>135</div>
-                            </div>
-                            <div class="fa-g">训练营</div>
+                            <div><img src="../pic/5.png" alt=""></div>
+                            <div>135</div>
                         </div>
                         </a>
                         <a class="fa" href="">
@@ -112,11 +106,8 @@
                         </div>
                         <div class="fa_e"></div>
                         <div class="fa_d">
-                            <div class="fa-f">
-                                <div><img src="../pic/5.png" alt=""></div>
-                                <div>135</div>
-                            </div>
-                            <div class="fa-g">训练营</div>
+                            <div><img src="../pic/5.png" alt=""></div>
+                            <div>135</div>
                         </div>
                         </a>
                         <a class="fa" href="">
@@ -133,11 +124,9 @@
                         </div>
                         <div class="fa_e"></div>
                         <div class="fa_d">
-                            <div class="fa-f">
-                                <div><img src="../pic/5.png" alt=""></div>
-                                <div>135</div>
-                            </div>
-                            
+                            <div><img src="../pic/5.png" alt=""></div>
+                            <div>135</div>
+                            <div class="fa-f"></div>
                         </div>
                         </a>
 
@@ -177,9 +166,6 @@
     a{
         text-decoration: none;
         color: black;
-    }
-    .ta {
-        margin-right: 10px;
     }
   .box {
         width: 100%;
@@ -250,20 +236,10 @@
         display: flex;
         align-items: center;
         padding-left: 5px;
-        justify-content: space-between;
+        
     }
     .fa_e{
         height: 46px;
-    }
-    .fa-f {
-        display: flex;
-        align-items: center;
-    }
-    .fa-g {
-        border-radius: 15px;
-        background: #f66;
-        color: white;
-        padding: 3px 10px;
     }
     .fa:hover .fa_a{
         height: 120px;

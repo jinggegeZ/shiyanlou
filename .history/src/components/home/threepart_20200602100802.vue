@@ -8,7 +8,7 @@
                         <a class="t-font2" href="">定期开班，导师助教全程辅导，最快最优成长</a>
                     </div>
                     <div class="t-right">
-                        <a href="" class="ta">更多>></a>
+                        <a href="">更多>></a>
                     </div>
                 </div>
                 <div class="foot">
@@ -77,9 +77,6 @@
     .top {
         display: flex;
         justify-content: space-between;
-    }
-    .ta {
-        margin-right: 20px;
     }
     .t-left {
         height: 80px;

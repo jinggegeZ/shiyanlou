@@ -179,7 +179,7 @@
         color: black;
     }
     .ta {
-        margin-right: 10px;
+        margin-right: 5px;
     }
   .box {
         width: 100%;

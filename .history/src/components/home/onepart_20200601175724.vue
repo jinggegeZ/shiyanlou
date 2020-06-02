@@ -29,7 +29,7 @@
             </a>
             <a class="nl" href="">社区<img src="../pic/3.png" alt="">
                 <div class="nla">
-                   <a href="">讨论</a>
+                  <a href="">讨论</a>
                   <a href="">教程库</a>
                   <a href="">直播</a>
                   <a href="">比赛</a>

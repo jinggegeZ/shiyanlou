@@ -178,9 +178,6 @@
         text-decoration: none;
         color: black;
     }
-    .ta {
-        margin-right: 10px;
-    }
   .box {
         width: 100%;
         display: flex;

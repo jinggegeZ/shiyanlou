@@ -8,7 +8,7 @@
     <sixpart></sixpart>
     <sevenpart></sevenpart>
     <eightpart></eightpart>
-    <ninepart></ninepart>
+    <ninepart><ninepart>
  </div>
 </template>
 
@@ -37,7 +37,7 @@ import ninepart from '../components/home/ninepart'
      sixpart,
      sevenpart,
      eightpart,
-     ninepart,
+      ninepart,
    },
    methods: {
 

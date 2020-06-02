@@ -185,7 +185,7 @@
    align-items: center;
  }
  .nf3 {
-   width: 920px;
+   width: 880px;
    display: flex;
    justify-content: space-between;
  }

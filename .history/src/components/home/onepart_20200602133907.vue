@@ -81,6 +81,7 @@
   
  .box {
    width: 100%;
+   height: 150px;
    background: rgb(249,249,249);
    display:flex;
    justify-content: center;
@@ -162,11 +163,11 @@
    color: black;
  }
  .n-foot {
-   width: 1200px;
+   width: 1180px;
    height: 55px;
    display: flex;
    align-items: center;
-   
+   padding: 10px;
    background: white;
  }
  .nf1 {
@@ -185,7 +186,7 @@
    align-items: center;
  }
  .nf3 {
-   width: 920px;
+   width: 880px;
    display: flex;
    justify-content: space-between;
  }

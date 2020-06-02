@@ -185,7 +185,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        
+        margin-top: 10px;
         background: rgb(249,249,249);
     }
     .nav{
@@ -213,7 +213,6 @@
         display: flex;
         justify-content: space-around;
         position: relative;
-        margin-bottom: 10px;
     }
     .f-foot {
         display: flex;
@@ -269,10 +268,6 @@
     }
     .fa:hover .fa_a{
         height: 120px;
-        
-    }
-    .fa:hover {
-        box-shadow: 0 1px 30px 0 #d2d2d2 !important;
     }
 
 </style>

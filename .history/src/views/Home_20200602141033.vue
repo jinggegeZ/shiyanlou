@@ -6,7 +6,6 @@
     <fourpart></fourpart>
     <fivepart></fivepart>
     <sixpart></sixpart>
-    <sevenpart></sevenpart>
  </div>
 </template>
 
@@ -17,7 +16,6 @@ import threepart from '../components/home/threepart'
 import fourpart from '../components/home/fourpart'
 import fivepart from '../components/home/fivepart'
 import sixpart from '../components/home/sixpart'
-import sevenpart from '../components/home/sevenpart'
  export default {
    data () {
      return {
@@ -31,7 +29,6 @@ import sevenpart from '../components/home/sevenpart'
      fourpart,
      fivepart,
      sixpart,
-     sevenpart,
    },
    methods: {
 

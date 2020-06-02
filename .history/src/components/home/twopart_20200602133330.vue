@@ -89,7 +89,7 @@
         height: 515px;
     }
     .mildle {
-        width: 1200px;
+        width: 1180px;
         padding-left: 10px;
         height: 100%;
         background: chocolate;
